@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Personal Portfolio Page of Egemen Güney</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta description="A personal website showcasing my projects and skills.">
+        <meta name="keywords" content="portfolio, web development, projects">
+        <meta name="author" content="Egemen Guney">
+        <link rel="icon" href="images/icon/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/icon/favicon-16x16.png" type="image/png" sizes="16x16">
+        <link rel="icon" href="images/icon/favicon-32x32.png" type="image/png" sizes="32x32">
+        <link rel="apple-icon" href="images/icon/apple-touch-icon.png" type="image/x-icon">
+        <link rel="icon" href="images/icon/android-chrome-192x192.png" type="image/png" sizes="192x192">
+        <link rel="icon" href="images/icon/android-chrome-512x512.png" type="image/png" sizes="512x512">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div class="border"></div>
+        <div class="overlay">
+            <header>
+                <h1 style="color: #A00;">Personal Portfolio Page of <span style="color: red; text-shadow: 1px 1px 1px rgb(116, 116, 116);">Egemen Güney</span></h1>
+                <figure>
+                    <img center src="images/egemen_guney.jpg" alt="Egemen Güney" title="Egemen Güney" width="175">
+                    <figcaption>Egemen Güney</figcaption>
+                </figure>
+                <nav class="gradient-container">
+                    <ul class="gradient-box radial-gradient">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <hr>
+            <div> <!-- 1st division -->
+                <h2 id="about">About myself</h2>
+                <div> <!-- Division 1.a -->
+                    <h3>Education</h3>
+                    <ul>
+                        <li>TED Ankara College Private High School, Turkey (2018-2022)</li>
+                        <li>Simon Fraser University, Canada (2022-Present)</li>
+                    </ul>
+                </div> <!-- Division 1.a -->
+                <div> <!-- Division 1.b -->
+                    <h3>Experiences</h3>
+                    <h4>Work Experiences</h4>
+                    <ul>
+                        <li>Food & beverage worker and cashier at Stuffies Pastries (March-May 2024)</li>
+                    </ul>
+                    <h4>Volunteer Experiences</h4>
+                    <ul>
+                        <li>Recycling plastic bottle caps & raising money to donate wheelchairs to people in need (2017-2020, Turkey)</li>
+                        <li>19 May Commemoration of Atatürk, Youth and Sports Day celebrations speech (2021, Turkey)</li>
+                        <li>Street cleaning (Adopt-a-Street program) (2022)</li>
+                        <li>Vancouver International Children's Festival, Activity Coordinator Assistant Captain (43 hours) (June 2024)</li>
+                        <li>Terry Fox Run, Volunteer (September 2024, SFU)</li>
+                        <li>October Convocation 2024, Guest Check-ins Volunteer (October 2024, SFU)</li>
+                    </ul>
+                </div> <!-- Division 1.b -->
+                <div> <!-- Division 1.c -->
+                    <h3>Key Skills & Strengths</h3>
+                    <ul>
+                        <li>2 years of C++ experience</li>
+                        <li>1 year of Java experience</li>
+                        <li>Proficient in MS Office programs</li>
+                        <li>Baking & barista</li>
+                    </ul>
+                </div> <!-- Division 1.c -->
+                <div> <!-- Division 1.d -->
+                    <h3>Hobbies & Interests</h3>
+                    <ul>
+                        <li>Soccer</li>
+                        <li>Fitness</li>
+                        <li>Movies</li>
+                        <li>Reading</li>
+                    </ul>
+                    <p id="quote">Here is a quote I really like:</p>
+                         <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                             "Live as if you were to die tomorrow. Learn as if you were to live forever." - Mahatma Gandhi
+                         </blockquote>
+                </div> <!-- Division 1.d -->
+            </div> <!-- 1st division -->
+            <hr>
+            <div> <!-- 2nd divison -->
+                <h2 id="projects">My Projects</h2>
+                <ol>
+                    <li>SFU Toolbox (Project Manager, CMPT 276 - SFU):
+                        <a href="https://github.com/CMPT-276-FALL-2024/project-13-bays">Link to GitHub repo</a>
+                    </li>
+                </ol>
+            </div> <!-- 2nd division -->
+            <hr>
+            <div> <!-- 3rd division -->
+                <h2 id="contact">Contact me</h2>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/gmn.guney">
+                        <img src="images/socials/instagram-icon.svg.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/egemen-guney">
+                        <img src="images/socials/linkedin-icon.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/gmnguney">
+                        <img src="images/socials/github-icon.png" alt="GitHub">
+                    </a>
+                    <a href="mailto:gmnguney14@gmail.com">
+                        <img src="images/socials/mail-icon.png" alt="Email">
+                    </a> 
+                </div>
+                <p>Please feel free to leave a feedback/comment!</p>
+                <label>Rate my website: <br/>
+                0
+                <input type="range" min="0" max="10" step="1" value="5">
+                10 <br/>
+                <textarea placeholder="Your feedback matters..."></textarea>
+                <button type="button" id="btn">Submit</button> <button type="reset">Reset</button>
+            </div> <!-- 3rd division -->
+            <hr>
+            <footer>
+                <div>   
+                    <p>Posted by: Egemen Güney</p>
+                    <p>Copyright &copy 2024 Egemen Güney. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
